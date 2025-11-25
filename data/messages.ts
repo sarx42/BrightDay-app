@@ -29,7 +29,6 @@ export const quotes: Quote[] = [
   { id: '7', text: '🌈 This too shall pass.' },
   { id: '8', text: '🦋 Progress, not perfection.' },
   { id: '9', text: '🌸 Be gentle with yourself.' },
-  { id: '10', text: '💫 You&apos;re worth the effort.' },
   { id: '11', text: '🌙 Rest is part of the journey.' },
   { id: '12', text: '🎯 Small steps count.' },
   { id: '13', text: '🌻 You&apos;re growing every day.' },
