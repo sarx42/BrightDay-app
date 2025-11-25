@@ -1,0 +1,69 @@
+
+import { CheerMessage, Quote } from '@/types/data';
+
+export const cheerMessages: CheerMessage[] = [
+  { id: '1', message: '✨ Main character energy.' },
+  { id: '2', message: '💪 You survived 100% of bad days.' },
+  { id: '3', message: '🌟 You&apos;re stronger than this moment.' },
+  { id: '4', message: '🎯 You&apos;re doing amazing, sweetie.' },
+  { id: '5', message: '🌈 Plot twist: you&apos;re the hero.' },
+  { id: '6', message: '💫 Your vibe attracts your tribe.' },
+  { id: '7', message: '🦋 Growth looks good on you.' },
+  { id: '8', message: '🌸 You&apos;re blooming beautifully.' },
+  { id: '9', message: '⚡ Energy check: legendary.' },
+  { id: '10', message: '🎨 You&apos;re a masterpiece in progress.' },
+  { id: '11', message: '🌙 Even the moon has phases.' },
+  { id: '12', message: '🔥 You&apos;re on fire (in a good way).' },
+  { id: '13', message: '🎪 Life&apos;s a circus, you&apos;re the star.' },
+  { id: '14', message: '🌻 Sunflowers grow through dirt too.' },
+  { id: '15', message: '🎭 Your comeback will be epic.' },
+];
+
+export const quotes: Quote[] = [
+  { id: '1', text: '💜 You&apos;re doing better than you think.' },
+  { id: '2', text: '🌱 Healing isn&apos;t linear.' },
+  { id: '3', text: '✨ You matter.' },
+  { id: '4', text: '🌅 Better days are coming.' },
+  { id: '5', text: '🌟 One day at a time.' },
+  { id: '6', text: '💪 You&apos;re stronger than you know.' },
+  { id: '7', text: '🌈 This too shall pass.' },
+  { id: '8', text: '🦋 Progress, not perfection.' },
+  { id: '9', text: '🌸 Be gentle with yourself.' },
+  { id: '10', text: '💫 You&apos;re worth the effort.' },
+  { id: '11', text: '🌙 Rest is part of the journey.' },
+  { id: '12', text: '🎯 Small steps count.' },
+  { id: '13', text: '🌻 You&apos;re growing every day.' },
+  { id: '14', text: '⭐ Believe in your journey.' },
+  { id: '15', text: '🌺 You&apos;re exactly where you need to be.' },
+  { id: '16', text: '🎨 Your story is still being written.' },
+  { id: '17', text: '🔥 You&apos;ve got this.' },
+  { id: '18', text: '🌊 Ride the wave, don&apos;t fight it.' },
+  { id: '19', text: '🎭 Every day is a fresh start.' },
+  { id: '20', text: '💝 You deserve kindness, especially from yourself.' },
+];
+
+export const successMessages: string[] = [
+  '🎉 Proud of you.',
+  '💪 You&apos;re building momentum.',
+  '✨ Tiny win. Big impact.',
+  '🌟 That&apos;s the spirit!',
+  '🔥 You&apos;re on a roll!',
+  '💫 Keep shining!',
+  '🎯 Nailed it!',
+  '🌈 Beautiful choice!',
+  '⭐ You&apos;re amazing!',
+  '🦋 Growth in action!',
+];
+
+export const slipMessages: string[] = [
+  '🌅 It&apos;s okay. Tomorrow is fresh.',
+  '💜 One moment doesn&apos;t define you.',
+  '🌸 Be gentle with yourself.',
+  '🌱 Every day is a new chance.',
+  '💫 You&apos;re still worthy.',
+  '🌈 Progress isn&apos;t always linear.',
+  '🦋 Setbacks are part of growth.',
+  '💝 Treat yourself with compassion.',
+  '🌻 You&apos;re learning and growing.',
+  '✨ Tomorrow is a blank page.',
+];

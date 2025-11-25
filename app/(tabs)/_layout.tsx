@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Stack } from 'expo-router';
 import FloatingTabBar, { TabBarItem } from '@/components/FloatingTabBar';
@@ -12,10 +13,22 @@ export default function TabLayout() {
       label: 'Home',
     },
     {
-      name: 'profile',
-      route: '/(tabs)/profile',
-      icon: 'person',
-      label: 'Profile',
+      name: 'calendar',
+      route: '/(tabs)/calendar',
+      icon: 'calendar-today',
+      label: 'Calendar',
+    },
+    {
+      name: 'insights',
+      route: '/(tabs)/insights',
+      icon: 'bar-chart',
+      label: 'Insights',
+    },
+    {
+      name: 'settings',
+      route: '/(tabs)/settings',
+      icon: 'settings',
+      label: 'Settings',
     },
   ];
 
@@ -25,11 +38,13 @@ export default function TabLayout() {
       <Stack
         screenOptions={{
           headerShown: false,
-          animation: 'none', // Remove fade animation to prevent black screen flash
+          animation: 'none',
         }}
       >
         <Stack.Screen key="home" name="(home)" />
-        <Stack.Screen key="profile" name="profile" />
+        <Stack.Screen key="calendar" name="calendar" />
+        <Stack.Screen key="insights" name="insights" />
+        <Stack.Screen key="settings" name="settings" />
       </Stack>
       <FloatingTabBar tabs={tabs} />
     </>
